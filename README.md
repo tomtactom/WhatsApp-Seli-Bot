@@ -1,29 +1,20 @@
 # WhatsApp Bot
-> Eine API für WhatsApp zum Benutzen in externen Programmen. Das Programm basiert auf Python, mit Verwendung von Selenium.
-<!--
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
--->
+> Ein WhatsApp Bot Tool als Backendanwendung zu einbinden als API per JSON, welches auf Python und der Library Selenium basiert.
+
 [WhatsApp](https://www.whatsapp.com/) stellt [nur für Firmen](https://www.facebook.com/business/m/whatsapp/business-api) eine API zur Verfügung. Hobbyentwickler bekommen leider keinen Zugriff darauf. Dieses Repository hilft dir dabei WhatsApp automatisiert, plattformübergreifend und mich viel mehr Möglichkeiten zu Nutzen. Dafür wird eine Brücke über [WhatsApp Web](https://web.whatsapp.com) aufgebaut und die Daten werden über [Selenium](https://www.seleniumhq.org/) abgerufen und es werden Handlungen ausgeführt.
 
 ![](https://repository-images.githubusercontent.com/194916303/125f1b00-9d09-11e9-8244-14ebb274543b)
 
 ## Installation
-!!!Achtung!!!
+_Achtung_
+
 *Es kann sein, dass das Tool noch nicht funktioniert, oder noch gar nicht vorhanden ist, da es momentan noch entwickelt wird.*
-
-OS X & Linux: -
-
-
-Windows: -
-
 
 Manuell: 
 1. Lade die Zip-Datei herunter und entpacke sie in gewünschten Verzeichnis
 2. Installiere einige Module
 ```
-pip install urllib
+pip install urllib3
 pip install pil
 pip install requests
 pip install io
