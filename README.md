@@ -1,4 +1,4 @@
-# WhatsApp Bot
+# WhatsApp Seli Bot
 > Ein WhatsApp Bot Tool als Backendanwendung zu einbinden als API per JSON, welches auf Python und der Library Selenium basiert.
 
 [WhatsApp](https://www.whatsapp.com/) stellt [nur für Firmen](https://www.facebook.com/business/m/whatsapp/business-api) eine API zur Verfügung. Hobbyentwickler bekommen leider keinen Zugriff darauf. Dieses Repository hilft dir dabei WhatsApp automatisiert, plattformübergreifend und mich viel mehr Möglichkeiten zu Nutzen. Dafür wird eine Brücke über [WhatsApp Web](https://web.whatsapp.com) aufgebaut und die Daten werden über [Selenium](https://www.seleniumhq.org/) abgerufen und es werden Handlungen ausgeführt.
